@@ -23,14 +23,20 @@
 Optional: add some initial data
 
 ```py
-
+$python manage.py shell
+>>>from ratings.models import Ratings
+>>>dest1 = Ratings()
+>>>dest1.destination = 'Istanbul'
+>>>dest1.country = 'Turkey'
+>>>dest1.rating = 'Architectural'
+>>>dest1.save()
 ```
 
 ### Codes
 
 #### 
 
-```
+```py
 
 ```
 
