@@ -38,4 +38,4 @@ Optional: add some initial data
 
 ### Results
 
-![]()
+![](https://raw.githubusercontent.com/atabegruslan/Django-MVC/master/Illustrations/01.PNG)
