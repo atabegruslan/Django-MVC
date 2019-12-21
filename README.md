@@ -222,3 +222,10 @@ class NewRatingForm(forms.ModelForm):
 ### Results
 
 ![](https://raw.githubusercontent.com/atabegruslan/Django-MVC/master/Illustrations/01.PNG)
+
+---
+
+## Tutorials
+
+- Python: https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3
+- Django: https://www.youtube.com/playlist?list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau
