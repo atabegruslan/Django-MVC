@@ -4,16 +4,16 @@
 
 1. Install python, pip, virtual environment & django
 
-Having virtual environment means that django config won't be computer-wide, but per-project.
+	- Having virtual environment means that django config won't be computer-wide, but per-project.
 
-`venv` is a package that comes with Python 3. Python 2 does not contain `venv`.
+		- `venv` is a package that comes with Python 3. Python 2 does not contain `venv`.
 
 ```
 python3 -m venv test
 source test/bin/activate     # On Windows use `test\Scripts\activate`
 ```
 
-`virtualenv` is a tool that allows you to create isolated Python environments, which can be quite helpful when you have different projects with differing requirements.
+		- `virtualenv` is a tool that allows you to create isolated Python environments, which can be quite helpful when you have different projects with differing requirements.
 It is a library that offers more functionality than `venv`. 
 
 ```
@@ -24,7 +24,7 @@ source test/bin/activate
 
 https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3
 
-`mkvirtualenv` is command under `virtualenvwrapper` which is just a wrapper utility around virtualenv that makes it even easier to work with.
+		- `mkvirtualenv` is command under `virtualenvwrapper` which is just a wrapper utility around virtualenv that makes it even easier to work with.
 
 ```
 pip install virtualenvwrapper-win        # create the env wrapper
