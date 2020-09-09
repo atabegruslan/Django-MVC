@@ -2,7 +2,7 @@
 
 ### Steps
 
-1. Install Python, PIP, **virtual environment** & django (`(vir_env_name) \path\blah\blah>pip install Django`)
+1. Install Python, PIP, **virtual environment** & Django (`(vir_env_name) \path\blah\blah>pip install django`)
 
 Having **virtual environment** means that django config won't be computer-wide, but per-project.
 
