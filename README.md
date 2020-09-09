@@ -33,6 +33,11 @@ mkvirtualenv vir_env_name                # create the env
 
 https://stackoverflow.com/questions/44063274/differences-between-mkvirtualenv-and-virtualenv-for-creating-virtual-environment
 
+- Navigating virtual environments
+	- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
+	- https://stackoverflow.com/questions/990754/how-to-leave-exit-deactivate-a-python-virtualenv
+	- If you exited an virtual env and want to re-enter: `workon test`
+
 2. Create project `django-admin startproject tripadvisor`
 
 3. Create app `python manage.py startapp ratings`
