@@ -2,41 +2,7 @@
 
 ### Steps
 
-1. Install Python, PIP, **virtual environment** & Django (`(vir_env_name) \path\blah\blah>pip install django`)
-
-Having **virtual environment** means that django config won't be computer-wide, but per-project.
-
-- `venv` is a package that comes with Python 3. Python 2 does not contain `venv`.
-
-```
-python3 -m venv vir_env_name
-source vir_env_name/bin/activate     # On Windows use `vir_env_name\Scripts\activate`
-```
-
-- `virtualenv` is a tool that allows you to create isolated Python environments, which can be quite helpful when you have different projects with differing requirements.
-It is a library that offers more functionality than `venv`. 
-
-```
-pip3 install virtualenv
-virtualenv -p python3 vir_env_name
-source vir_env_name/bin/activate
-```
-
-https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3
-
-- `mkvirtualenv` is command under `virtualenvwrapper` which is just a wrapper utility around virtualenv that makes it even easier to work with.
-
-```
-pip install virtualenvwrapper-win        # create the env wrapper
-mkvirtualenv vir_env_name                # create the env
-```
-
-https://stackoverflow.com/questions/44063274/differences-between-mkvirtualenv-and-virtualenv-for-creating-virtual-environment
-
-- Navigating virtual environments
-	- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
-	- https://stackoverflow.com/questions/990754/how-to-leave-exit-deactivate-a-python-virtualenv
-	- If you exited an virtual env and want to re-enter: `workon test`
+1. Install Python, PIP & Django 
 
 2. Create project `django-admin startproject tripadvisor`
 
@@ -267,5 +233,3 @@ class NewRatingForm(forms.ModelForm):
 - Django
     - https://www.youtube.com/playlist?list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau
     - https://www.youtube.com/watch?v=VuETrwKYLTM&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=87
-- Django RESTful API
-    - https://www.django-rest-framework.org/tutorial/quickstart/
